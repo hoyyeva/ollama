@@ -34,18 +34,6 @@ The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `olla
 
 ## Get started
 
-### Chat with a model
-
-Run and chat with [Gemma 3](https://ollama.com/library/gemma3):
-
-```
-ollama run gemma3
-```
-
-Other popular models include [Llama 4](https://ollama.com/library/llama4), [DeepSeek-R1](https://ollama.com/library/deepseek-r1), [Qwen 3](https://ollama.com/library/qwen3), and cloud-connected models like [Kimi K2.5](https://ollama.com/library/kimi-2.5:cloud).
-
-See [ollama.com/library](https://ollama.com/library) for the full list.
-
 ### Coding
 
 Use `ollama launch` to quickly get started with an AI-powered coding assistant:
@@ -69,6 +57,18 @@ Use [OpenClaw](https://docs.ollama.com/integrations/openclaw) to turn Ollama int
 ```
 ollama launch openclaw
 ```
+
+### Chat with a model
+
+Run and chat with [Gemma 3](https://ollama.com/library/gemma3):
+
+```
+ollama run gemma3
+```
+
+Other popular models include [Qwen3-VL](https://ollama.com/library/qwen3-vl), [DeepSeek-R1](https://ollama.com/library/deepseek-r1), and cloud-connected models like [Kimi K2.5](https://ollama.com/library/kimi-2.5:cloud) and [GPT-oss](https://ollama.com/library/gpt-oss:120b).
+
+See [ollama.com/library](https://ollama.com/library) for the full list.
 
 See the [quickstart guide](https://docs.ollama.com/quickstart) for more details.
 
