@@ -133,7 +133,7 @@ Libraries: [Python](https://github.com/ollama/ollama-python) · [JavaScript](htt
 - [REST API reference](https://docs.ollama.com/api)
 - [Importing models](https://docs.ollama.com/import)
 - [Modelfile reference](https://docs.ollama.com/modelfile)
-- [Community integrations](https://docs.ollama.com/integrations)
+- [Community integrations](./docs/community-integrations.md)
 - [Building from source](https://github.com/ollama/ollama/blob/main/docs/development.md)
 
 ## Community
