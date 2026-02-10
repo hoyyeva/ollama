@@ -42,7 +42,9 @@ Run and chat with [Gemma 3](https://ollama.com/library/gemma3):
 ollama run gemma3
 ```
 
-Other popular models include [Llama 4](https://ollama.com/library/llama4), [DeepSeek-R1](https://ollama.com/library/deepseek-r1), and [Qwen 3](https://ollama.com/library/qwen3). See [ollama.com/library](https://ollama.com/library) for the full list.
+Other popular models include [Llama 4](https://ollama.com/library/llama4), [DeepSeek-R1](https://ollama.com/library/deepseek-r1), [Qwen 3](https://ollama.com/library/qwen3), and cloud-connected models like [Kimi K2.5](https://ollama.com/library/kimi-2.5:cloud).
+
+See [ollama.com/library](https://ollama.com/library) for the full list.
 
 ### Coding
 
