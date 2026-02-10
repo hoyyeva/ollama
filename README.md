@@ -34,6 +34,12 @@ The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `olla
 
 ## Get started
 
+Run `ollama` to get an interactive menu for running models, launching coding assistants, and more:
+
+```
+ollama
+```
+
 ### Coding
 
 Use `ollama launch` to quickly get started with an AI-powered coding assistant:
@@ -66,7 +72,7 @@ Run and chat with [Gemma 3](https://ollama.com/library/gemma3):
 ollama run gemma3
 ```
 
-Other popular models include [Qwen3-VL](https://ollama.com/library/qwen3-vl), [DeepSeek-R1](https://ollama.com/library/deepseek-r1), and cloud-connected models like [Kimi K2.5](https://ollama.com/library/kimi-2.5:cloud) and [GPT-oss](https://ollama.com/library/gpt-oss:120b).
+Other popular models include [Qwen3-VL](https://ollama.com/library/qwen3-vl), [GLM-4.7-Flash](https://ollama.com/library/glm-4.7-flash), and cloud-connected models like [Kimi K2.5](https://ollama.com/library/kimi-2.5:cloud) and [GLM-4.7](https://ollama.com/library/glm-4.7:cloud).
 
 See [ollama.com/library](https://ollama.com/library) for the full list.
 
