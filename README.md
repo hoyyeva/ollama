@@ -2,7 +2,7 @@
   <img src="https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7" alt="ollama" width="200"/>
 </p>
 
-<h1 align="center">Ollama</h1>
+# Ollama
 
 Start building with open models.
 
@@ -10,17 +10,17 @@ Start building with open models.
 
 ## Download Ollama
 
-**macOS**
+### macOS
 
 ```
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-**Windows**
+### Windows
 
 [Download](https://ollama.com/download/OllamaSetup.exe)
 
-**Linux**
+### Linux
 
 ```
 curl -fsSL https://ollama.com/install.sh | sh
@@ -28,11 +28,35 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 [Manual install instructions](https://docs.ollama.com/linux#manual-install)
 
-**Docker**
+### Docker
 
 The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `ollama/ollama` is available on Docker Hub.
 
 ## Get started
+
+### Coding
+
+Use `ollama launch` to quickly get started with an AI-powered coding assistant:
+
+```
+ollama launch
+```
+
+To launch a specific integration:
+
+```
+ollama launch claude-code
+```
+
+Supported integrations include [Claude Code](https://docs.ollama.com/integrations/claude-code), [Codex](https://docs.ollama.com/integrations/codex), [Droid](https://docs.ollama.com/integrations/droid), and [OpenCode](https://docs.ollama.com/integrations/opencode).
+
+### AI assistant
+
+Use [OpenClaw](https://docs.ollama.com/integrations/openclaw) to turn Ollama into a personal AI assistant across WhatsApp, Telegram, Slack, Discord, and more:
+
+```
+ollama launch openclaw
+```
 
 ### Chat with a model
 
@@ -43,24 +67,6 @@ ollama run gemma3
 ```
 
 See [ollama.com/library](https://ollama.com/library) for the full list of available models.
-
-### Coding assistant
-
-Use `ollama launch` to quickly get started with an AI-powered coding assistant:
-
-```
-ollama launch
-```
-
-Supported integrations include [OpenCode](https://docs.ollama.com/integrations/opencode), [Claude Code](https://docs.ollama.com/integrations/claude-code), [Codex](https://docs.ollama.com/integrations/codex), and [Droid](https://docs.ollama.com/integrations/droid).
-
-### AI assistant
-
-Use [OpenClaw](https://docs.ollama.com/integrations/openclaw) to turn Ollama into a personal AI assistant across WhatsApp, Telegram, Slack, Discord, and more:
-
-```
-ollama launch openclaw
-```
 
 See the [quickstart guide](https://docs.ollama.com/quickstart) for more details.
 
