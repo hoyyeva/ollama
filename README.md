@@ -4,13 +4,9 @@
 
 <h1 align="center">Ollama</h1>
 
-<p align="center">
-  Get up and running with large language models.
-</p>
+Start building with open models.
 
-<p align="center">
-  <a href="https://ollama.com">Website</a> · <a href="https://docs.ollama.com">Documentation</a> · <a href="https://discord.gg/ollama">Discord</a> · <a href="https://reddit.com/r/ollama">Reddit</a>
-</p>
+<a href="https://ollama.com">Website</a> · <a href="https://docs.ollama.com">Documentation</a> · <a href="https://discord.gg/ollama">Discord</a> · <a href="https://reddit.com/r/ollama">Reddit</a>
 
 ## Download Ollama
 
@@ -30,7 +26,11 @@ curl -fsSL https://ollama.com/install.sh | sh
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-[Manual install instructions](https://docs.ollama.com/linux#manual-install) · [Docker](https://hub.docker.com/r/ollama/ollama)
+[Manual install instructions](https://docs.ollama.com/linux#manual-install)
+
+**Docker**
+
+The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `ollama/ollama` is available on Docker Hub.
 
 ## Get started
 
@@ -123,7 +123,7 @@ Libraries: [Python](https://github.com/ollama/ollama-python) · [JavaScript](htt
 
 - [Quickstart guide](https://docs.ollama.com/quickstart)
 - [Model library](https://ollama.com/library)
-- [CLI reference](https://docs.ollama.com/cli-reference)
+- [CLI reference](https://docs.ollama.com/cli)
 - [REST API reference](https://docs.ollama.com/api)
 - [Importing models](https://docs.ollama.com/import)
 - [Modelfile reference](https://docs.ollama.com/modelfile)
