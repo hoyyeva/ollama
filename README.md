@@ -34,6 +34,16 @@ The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `olla
 
 ## Get started
 
+### Chat with a model
+
+Run and chat with [Gemma 3](https://ollama.com/library/gemma3):
+
+```
+ollama run gemma3
+```
+
+Other popular models include [Llama 4](https://ollama.com/library/llama4), [DeepSeek-R1](https://ollama.com/library/deepseek-r1), and [Qwen 3](https://ollama.com/library/qwen3). See [ollama.com/library](https://ollama.com/library) for the full list.
+
 ### Coding
 
 Use `ollama launch` to quickly get started with an AI-powered coding assistant:
@@ -58,17 +68,9 @@ Use [OpenClaw](https://docs.ollama.com/integrations/openclaw) to turn Ollama int
 ollama launch openclaw
 ```
 
-### Chat with a model
-
-Run and chat with [Gemma 3](https://ollama.com/library/gemma3):
-
-```
-ollama run gemma3
-```
-
-See [ollama.com/library](https://ollama.com/library) for the full list of available models.
-
 See the [quickstart guide](https://docs.ollama.com/quickstart) for more details.
+
+## Build with Ollama
 
 ### REST API
 
@@ -86,8 +88,6 @@ curl http://localhost:11434/api/chat -d '{
 ```
 
 See the [API documentation](https://docs.ollama.com/api) for all endpoints.
-
-## Build with Ollama
 
 ### Python
 
