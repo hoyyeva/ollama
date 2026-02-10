@@ -89,7 +89,7 @@ See the [API documentation](https://docs.ollama.com/api) for all endpoints.
 
 ## Build with Ollama
 
-**Python**
+### Python
 
 ```
 pip install ollama
@@ -107,7 +107,7 @@ response = chat(model='gemma3', messages=[
 print(response.message.content)
 ```
 
-**JavaScript**
+### JavaScript
 
 ```
 npm i ollama
